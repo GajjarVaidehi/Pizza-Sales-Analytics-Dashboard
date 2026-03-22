@@ -134,11 +134,6 @@ The dataset contains pizza sales transactions with the following fields:
 
 ---
 
-📄 Full SQL queries used for KPI calculation:
-👉 
-
----
-
 ## 📈 Dashboard Visualizations & Insights
 
 
@@ -159,7 +154,7 @@ The dataset contains pizza sales transactions with the following fields:
 ![daily_trend_for_total_orders](https://github.com/user-attachments/assets/8ef41872-0847-4ebf-9dbb-7fc14e56b011)
 
 
-**Visual Type:** Bar Chart
+**Visual Type:** Stacked Column Chart
 
 **Description:**
 Shows the number of orders placed on each day of the week.
@@ -181,7 +176,7 @@ Shows the number of orders placed on each day of the week.
 ![monthly_trend_for_total_orders](https://github.com/user-attachments/assets/4a132392-654c-4993-a81c-0b9ea6f2b290)
 
 
-**Visual Type:** Line Chart
+**Visual Type:** Area Chart
 
 **Description:**
 Displays total orders across different months.
@@ -203,7 +198,7 @@ Displays total orders across different months.
 ![percentage_of_sales_by _pizza_category](https://github.com/user-attachments/assets/4d4bef67-1d40-408b-9a08-067e5cb38d08)
 
 
-**Visual Type:** Donut / Pie Chart
+**Visual Type:** Donut Chart
 
 **Description:**
 Represents contribution of each pizza category to total revenue.
@@ -231,7 +226,7 @@ Represents contribution of each pizza category to total revenue.
 ![percentage_of_sales_by_pizza_size](https://github.com/user-attachments/assets/c588b7a6-743d-4278-b073-55e164494acd)
 
 
-**Visual Type:** Donut / Pie Chart
+**Visual Type:** Donut Chart
 
 **Description:**
 Shows revenue distribution by pizza size.
@@ -256,7 +251,7 @@ Shows revenue distribution by pizza size.
 ![total_pizzas_sold_by_pizza_category](https://github.com/user-attachments/assets/eec1a124-de98-4abf-9113-689a0ce5f825)
 
 
-**Visual Type:** Bar Chart  
+**Visual Type:** Funnel Chart  
 
 **Description:**  
 This chart shows the total number of pizzas sold for each pizza category, such as Classic, Chicken, Supreme, and Veggie.
@@ -270,9 +265,6 @@ This chart shows the total number of pizzas sold for each pizza category, such a
 - Other categories such as **Chicken**, **Supreme**, and **Veggie** contribute less in comparison.
 - This chart helps in demand planning, stock management, and category-level promotions.
 
-**Why It Matters:**  
-While revenue charts show which category earns the most money, this visual shows which category sells the most in volume. This is useful because a category may sell many units but still generate less revenue depending on pricing.
-
 ---
 
 ### 🥇 Top 5 Pizzas by Revenue
@@ -280,7 +272,7 @@ While revenue charts show which category earns the most money, this visual shows
 ![top_5_pizzas_by_revenue](https://github.com/user-attachments/assets/b2528cdd-b60e-4309-afb2-ad0acb133581)
 
 
-**Visual Type:** Horizontal Bar Chart
+**Visual Type:** Stacked Bar Chart
 
 **Description:**
 Displays top-performing pizzas based on total revenue.
@@ -301,7 +293,7 @@ Displays top-performing pizzas based on total revenue.
 ![bottom_5_pizzas_by_revenue](https://github.com/user-attachments/assets/8fadef68-94b4-4282-9054-5cc8fb21b6ec)
 
 
-**Visual Type:** Horizontal Bar Chart
+**Visual Type:** Stacked Bar Chart
 
 **Description:**
 Shows lowest-performing pizzas in terms of revenue.
@@ -322,7 +314,7 @@ Shows lowest-performing pizzas in terms of revenue.
 ![top_5_pizzas_by_quantity](https://github.com/user-attachments/assets/cce00a07-734b-4f09-bfcb-3a5a87bc4df8)
 
 
-**Visual Type:** Bar Chart
+**Visual Type:** Stacked Bar Chart
 
 **Description:**
 Ranks pizzas based on number of units sold.
@@ -343,7 +335,7 @@ Ranks pizzas based on number of units sold.
 ![bottom_5_pizzas_by_quantity](https://github.com/user-attachments/assets/3351245e-c215-4746-ad73-5dd6610cf70e)
 
 
-**Visual Type:** Bar Chart
+**Visual Type:** Stacked Bar Chart
 
 **Description:**
 Displays least sold pizzas.
@@ -360,7 +352,7 @@ Displays least sold pizzas.
 ![top_5_pizzas_by_total_orders](https://github.com/user-attachments/assets/af0af87f-6a64-4c5e-b386-2c19b07ea9d6)
 
 
-**Visual Type:** Bar Chart
+**Visual Type:** Stacked Bar Chart
 
 **Description:**
 Shows pizzas with the highest number of orders.
@@ -377,7 +369,7 @@ Shows pizzas with the highest number of orders.
 ![bottom_5 _pizzas_by_total_orders](https://github.com/user-attachments/assets/42d7b660-69ef-4c6c-aa3b-a0f2edaa6e76)
 
 
-**Visual Type:** Bar Chart
+**Visual Type:** Stacked Bar Chart
 
 **Description:**
 Shows pizzas with the least number of orders.
