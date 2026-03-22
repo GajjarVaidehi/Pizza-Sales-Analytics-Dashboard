@@ -141,133 +141,299 @@ The dataset contains pizza sales transactions with the following fields:
 
 ## 📈 Dashboard Visualizations & Insights
 
----
 
 ### 🏠 Dashboard Overview
 
-![Dashboard](images/dashboard_home.png)
+![home_page](https://github.com/user-attachments/assets/24fc9dab-5cd6-4317-84a2-d091f21eb6a0)
 
 **Highlights:**
 
-* Total Revenue: **817.86K**
-* Total Orders: **21,350**
-* Avg Order Value: **38.31**
+* Total Revenue: 817.86K
+* Total Orders: 21,350
+* Avg Order Value: 38.31
 
 ---
 
-### 📅 Daily Trend Analysis
+### 📅 Daily Trend for Total Orders
 
-![Daily Trend](images/daily_trend.png)
+![daily_trend_for_total_orders](https://github.com/user-attachments/assets/8ef41872-0847-4ebf-9dbb-7fc14e56b011)
+
+
+**Visual Type:** Bar Chart
 
 **Description:**
-Displays total orders/revenue across weekdays.
+Shows the number of orders placed on each day of the week.
+
+**Business Questions Answered:**
+
+* Which days generate the most orders?
+* When should staffing be increased?
 
 **Insights:**
 
-* Peak sales occur on **Friday & Saturday evenings**
-* Weekends contribute significantly to revenue
+* Peak orders occur on **Friday and Saturday**
+* Lower activity during early weekdays
 
 ---
 
-### 📆 Monthly Trend Analysis
+### 📆 Monthly Trend for Total Orders
 
-![Monthly Trend](images/monthly_trend.png)
+![monthly_trend_for_total_orders](https://github.com/user-attachments/assets/4a132392-654c-4993-a81c-0b9ea6f2b290)
+
+
+**Visual Type:** Line Chart
 
 **Description:**
-Shows monthly variation in sales.
+Displays total orders across different months.
+
+**Business Questions Answered:**
+
+* What are the seasonal trends in sales?
+* Which months perform best?
 
 **Insights:**
 
-* Highest sales in **January & July**
-* Drop observed during **September–October**
+* Highest sales in **January and July**
+* Noticeable dip during **September–October**
 
 ---
 
-### 🍕 Sales by Pizza Category
+### 🍕 Percentage of Sales by Pizza Category
 
-![Category](images/category_sales.png)
+![percentage_of_sales_by _pizza_category](https://github.com/user-attachments/assets/4d4bef67-1d40-408b-9a08-067e5cb38d08)
+
+
+**Visual Type:** Donut / Pie Chart
 
 **Description:**
-Revenue contribution by category.
+Represents contribution of each pizza category to total revenue.
+
+**Categories:**
+
+* Classic
+* Chicken
+* Veggie
+* Supreme
+
+**Business Questions Answered:**
+
+* Which category drives the most revenue?
 
 **Insights:**
 
-* **Classic pizzas generate the highest revenue**
-* Balanced distribution across categories
+* **Classic pizzas dominate sales**
+* Other categories contribute evenly
 
 ---
 
-### 📏 Sales by Pizza Size
+### 📏 Percentage of Sales by Pizza Size
 
-![Size](images/size_sales.png)
+![percentage_of_sales_by_pizza_size](https://github.com/user-attachments/assets/c588b7a6-743d-4278-b073-55e164494acd)
+
+
+**Visual Type:** Donut / Pie Chart
 
 **Description:**
-Revenue distribution by pizza size.
+Shows revenue distribution by pizza size.
+
+**Sizes:**
+
+* Small, Medium, Large, XL, XXL
+
+**Business Questions Answered:**
+
+* Which size is most preferred?
 
 **Insights:**
 
-* **Large pizzas dominate sales**
-* Smaller sizes contribute less to revenue
+* **Large pizzas generate the highest revenue**
+* Smaller sizes contribute less
+
+---
+
+### 🍕 Total Pizzas Sold by Pizza Category
+
+![total_pizzas_sold_by_pizza_category](https://github.com/user-attachments/assets/eec1a124-de98-4abf-9113-689a0ce5f825)
+
+
+**Visual Type:** Bar Chart  
+
+**Description:**  
+This chart shows the total number of pizzas sold for each pizza category, such as Classic, Chicken, Supreme, and Veggie.
+
+**Business Questions Answered:**
+- Which pizza category is sold the most?
+- Which category has the highest customer demand?
+
+**Insights:**
+- The **Classic** category has the highest quantity sold, showing strong customer demand.
+- Other categories such as **Chicken**, **Supreme**, and **Veggie** contribute less in comparison.
+- This chart helps in demand planning, stock management, and category-level promotions.
+
+**Why It Matters:**  
+While revenue charts show which category earns the most money, this visual shows which category sells the most in volume. This is useful because a category may sell many units but still generate less revenue depending on pricing.
 
 ---
 
 ### 🥇 Top 5 Pizzas by Revenue
 
-![Top Revenue](images/top5_revenue.png)
+![top_5_pizzas_by_revenue](https://github.com/user-attachments/assets/b2528cdd-b60e-4309-afb2-ad0acb133581)
+
+
+**Visual Type:** Horizontal Bar Chart
+
+**Description:**
+Displays top-performing pizzas based on total revenue.
+
+**Business Questions Answered:**
+
+* Which products generate the most income?
 
 **Insights:**
 
-* Best-performing products driving revenue
-* Ideal for promotions & marketing focus
+* High-performing pizzas should be promoted
+* Ideal candidates for upselling and combo offers
 
 ---
 
 ### 🔻 Bottom 5 Pizzas by Revenue
 
-![Bottom Revenue](images/bottom5_revenue.png)
+![bottom_5_pizzas_by_revenue](https://github.com/user-attachments/assets/8fadef68-94b4-4282-9054-5cc8fb21b6ec)
+
+
+**Visual Type:** Horizontal Bar Chart
+
+**Description:**
+Shows lowest-performing pizzas in terms of revenue.
+
+**Business Questions Answered:**
+
+* Which products are underperforming?
 
 **Insights:**
 
-* Low-performing items
-* Candidates for removal or redesign
+* Some items may need removal or improvement
+* Opportunity to redesign menu strategy
 
 ---
 
-### 📦 Quantity-Based Analysis
+### 📦 Top 5 Pizzas by Quantity Sold
 
-![Quantity](images/quantity_analysis.png)
+![top_5_pizzas_by_quantity](https://github.com/user-attachments/assets/cce00a07-734b-4f09-bfcb-3a5a87bc4df8)
+
+
+**Visual Type:** Bar Chart
+
+**Description:**
+Ranks pizzas based on number of units sold.
+
+**Business Questions Answered:**
+
+* Which pizzas are most popular?
 
 **Insights:**
 
-* High sales volume doesn’t always mean high revenue
-* Pricing strategy impacts performance
+* High demand items may not always generate highest revenue
+* Important for inventory planning
 
 ---
 
-### 🧾 Orders-Based Analysis
+### 🔻 Bottom 5 Pizzas by Quantity Sold
 
-![Orders](images/orders_analysis.png)
+![bottom_5_pizzas_by_quantity](https://github.com/user-attachments/assets/3351245e-c215-4746-ad73-5dd6610cf70e)
+
+
+**Visual Type:** Bar Chart
+
+**Description:**
+Displays least sold pizzas.
 
 **Insights:**
 
-* Identifies frequently ordered pizzas
-* Helps in combo & bundle strategy
+* Indicates low customer preference
+* Candidates for removal or rebranding
 
 ---
 
-### ⭐ Best & Worst Sellers Dashboard
+### 🧾 Top 5 Pizzas by Total Orders
 
-![Best Worst](images/best_worst.png)
+![top_5_pizzas_by_total_orders](https://github.com/user-attachments/assets/af0af87f-6a64-4c5e-b386-2c19b07ea9d6)
+
+
+**Visual Type:** Bar Chart
+
+**Description:**
+Shows pizzas with the highest number of orders.
 
 **Insights:**
 
-* Top performers:
+* Frequently ordered items can be used in combo deals
+* Indicates strong customer preference
+
+---
+
+### 🔻 Bottom 5 Pizzas by Total Orders
+
+![bottom_5 _pizzas_by_total_orders](https://github.com/user-attachments/assets/42d7b660-69ef-4c6c-aa3b-a0f2edaa6e76)
+
+
+**Visual Type:** Bar Chart
+
+**Description:**
+Shows pizzas with the least number of orders.
+
+**Insights:**
+
+* Low engagement products
+* May need pricing or recipe adjustments
+
+---
+
+### ⭐ Best & Worst Sellers Summary
+
+![best_worst _seller_page](https://github.com/user-attachments/assets/ec957306-32e2-463e-aa49-ff6d5c196a8d)
+
+
+**Visual Type:** Summary Dashboard
+
+**Description:**
+Combines top and bottom performers across:
+
+* Revenue
+* Quantity
+* Orders
+
+**Insights:**
+
+* **Top Performers:**
 
   * Thai Chicken Pizza (Revenue)
   * Classic Deluxe Pizza (Orders & Quantity)
-* Worst performers:
+* **Worst Performers:**
 
-  * Brie Carre Pizza (lowest across metrics)
+  * Brie Carre Pizza (consistently low)
+
+---
+
+## 🧠 Overall Business Insights
+
+* 📈 Sales peak during weekends
+* 📅 Strong seasonal trends (Jan & July)
+* 🍕 Classic pizzas dominate revenue
+* 📦 Large pizzas are most preferred
+* ⚠️ Some pizzas consistently underperform
+
+---
+
+## 📌 Conclusion
+
+This dashboard enables stakeholders to:
+
+* Monitor performance in real-time
+* Identify high and low-performing products
+* Make data-driven decisions for pricing, marketing, and operations
+
+---
 
 ---
 
