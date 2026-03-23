@@ -475,10 +475,4 @@ Feel free to fork and improve the project.
 
 ---
 
-## 📬 Contact
-
-If you liked this project or want to collaborate, feel free to connect!
-
----
-
 ⭐ **If you found this useful, don’t forget to star the repo!**
