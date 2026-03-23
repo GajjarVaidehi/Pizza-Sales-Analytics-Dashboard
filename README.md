@@ -468,11 +468,4 @@ This dashboard enables stakeholders to:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork and improve the project.
-
----
-
 ⭐ **If you found this useful, don’t forget to star the repo!**
